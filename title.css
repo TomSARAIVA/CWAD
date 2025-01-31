@@ -1,0 +1,21 @@
+.title {
+    text-align: center;
+    margin: 20px 200px 0px 200px;
+}
+
+.title .sub-title {
+    color: transparent;
+    background: linear-gradient(to right, var(--color-pr-1), var(--color-pr-2));
+    background-clip: text;
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.title h1 {
+    color: transparent;
+    background: linear-gradient(45deg, var(--color-wh-1), var(--color-wh-2));
+    background-clip: text;
+    font-family: "Poppins",sans-serif;
+    margin-bottom: 16px;
+}

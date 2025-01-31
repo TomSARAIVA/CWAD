@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Virtual Quest - Accueil</title>
+        <link rel="stylesheet" href="glow.css">
+        <link rel="stylesheet" href="bento.css">
+        <link rel="stylesheet" href="slider.css">
+        <link rel="stylesheet" href="title.css">
+        <link rel="stylesheet" href="header-footer.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="media.css">
+        <link rel="stylesheet" href="fonts.css">
+        <link rel="icon" href="images/logo-icon.png" type="image/png">
+    </head>
+
+    <body>
+
+        <header>
+            <a href="./home.html" class="logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <ul class="nav">
+                <li><a href="./activites.html">Activités</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            <a href="./activites.html" class="btn">
+                Réserver
+            </a>
+        </header>
+
+        <main>
+            <div class="home-container">
+                <div class="home-title">
+                    <h1>Virtual<span class="home-title-gradient">Quest</span></h1>
+                    <div class="home-slogan">
+                        <p>L'expérience de demain, accessible dès aujourd'hui</p>
+                    </div>
+                </div>
+                <!-- <img src="images/logo.png" class="home-logo" alt="logo"> -->
+                <video autoplay loop muted src="images/logo-3d.mp4" class="home-logo"></video>
+            </div>
+            <div id="virtualquest"></div> <!-- Section vide permettant la redirection pour le footer -->
+            <div class="title desc">
+                <p class="sub-title">VirtualQuest</p>
+                <h1>La passerelle vers l’OASIS</h1>
+                <p>Chez VirtualQuest, nous croyons que la réalité virtuelle doit être accessible à tous. Nos expériences haut de gamme sont proposées à des tarifs abordables, avec des forfaits à partir de 9.99 € et des réductions disponibles pour les groupes et les étudiants. Plongez dans des aventures incroyables sans que l’expérience ne devienne un luxe.</p>
+                <p>Découvrez une diversité inégalée avec plus de 1 000 univers à explorer. Royaumes médiévaux, jungles mystérieuses ou courses futuristes : nos contenus sont régulièrement mis à jour pour captiver et surprendre, même les explorateurs les plus aguerris. Une semaine, incarnez un chevalier courageux ; la suivante, explorez les confins de la galaxie en tant que pilote interstellaire.</p>
+                <p>VirtualQuest s’adapte à votre emploi du temps chargé grâce à ses horaires flexibles. Nous sommes ouverts 24 h/24 et 7 j/7, afin que chacun puisse s’évader à tout moment. Que ce soit tôt le matin, tard le soir ou après une longue journée de travail, une expérience inoubliable vous attend.</p>
+            </div>
+
+            <div id="equipement"></div> <!-- Section vide permettant la redirection pour le footer -->
+            <div class="card">
+                <div class="title">
+                    <p class="sub-title">Equipement</p>
+                    <h1>Découvrez notre équipement</h1>
+                </div>
+                <div class="bento-grid">
+                    <div class="glow tapis">
+                        <h2>Tapis Omni One</h2>
+                        <p>Le tapis omnidirectionnel Omni One vous permet de marcher et de courir en douceur dans toutes les directions. Conçue pour des mouvements fluides, cette base améliore votre expérience de la réalité virtuelle en garantissant des mouvements fluides et naturels lorsque vous explorez des mondes virtuels.</p>
+                        <img src="images/tapis.png" alt="Tapis">
+                    </div>
+                    <div class="glow casque">
+                        <div class="Text">
+                            <h2>Casque VR Omni One</h2>
+                            <p>Le casque VR Omni One offre un affichage prémium, une connectivité transparente ainsi qu'un design léger et confortable, garantissant une expérience de réalité virtuelle inégalée.</p>
+                        </div>
+                        <img src="images/casque.png" alt="Casque VR">
+                    </div>
+                    <div class="glow logo">
+                        <img src="images/logo.png" alt="Logo">
+                        <p>L'expérience de demain, accessible dès aujourd'hui</p>
+                    </div>
+                    <div class="glow combinaison">
+                        <h2>combinaison teslasuit</h2>
+                        <p>La combinaison Teslasuit révolutionne l'expérience de la réalité virtuelle avec un retour haptique avancé, une capture de mouvement précise et une simulation thermique. Conçue pour s'adapter à divers environnements, elle permet de ressentir pleinement les sensations du monde virtuel, pour une immersion totale.</p>
+                        <img src="images/combinaison.png" alt="Combinaison">
+                    </div>
+                    <div class="glow gants">
+                        <img src="images/gant.png" alt="Gants">
+                        <div class="Text">
+                            <h2>Paire de gants teslasuit</h2>
+                            <p>Les gants Teslasuit offrent un retour haptique détaillé et une détection fine des mouvements des doigts. Ils permettent une interaction intuitive avec les objets virtuels, offrant une précision inégalée pour un contrôle immersif et naturel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="avis"></div> <!-- Section vide permettant la redirection pour le footer -->
+            <div class="home-slider">
+                <div class="title">
+                    <p class="sub-title">Avis</p>
+                    <h1 class="avis">Ils ont pu tester en avant-première</h1>
+                </div>
+                <div class="slider">
+                    <div class="slide-track">
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-1.jpeg" alt="Homme 1">
+                                <div class="detail">
+                                    <div class="username">Benjamin Clavet</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/femme-1.jpeg" alt="Femme 1">
+                                <div class="detail">
+                                    <div class="username">Lucie Nicolas</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/femme-2.jpeg" alt="Femme 2">
+                                <div class="detail">
+                                    <div class="username">Elisa Henry</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-2.jpeg" alt="Homme 2">
+                                <div class="detail">
+                                    <div class="username">Léo Garnier</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/femme-3.jpeg" alt="Femme 3">
+                                <div class="detail">
+                                    <div class="username">Justine Vincent</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/femme-4.jpeg" alt="Femme 4">
+                                <div class="detail">
+                                    <div class="username">Ambre Girard</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-3.jpeg" alt="Homme 3">
+                                <div class="detail">
+                                    <div class="username">Adrien Fournier</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-4.jpeg" alt="Homme 4">
+                                <div class="detail">
+                                    <div class="username">Arthur Morel</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/femme-5.jpeg" alt="Femme 5">
+                                <div class="detail">
+                                    <div class="username">Gabrielle Clement</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-5.jpeg" alt="Homme 5">
+                                <div class="detail">
+                                    <div class="username">Clément Muller</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-6.jpeg" alt="Homme 6">
+                                <div class="detail">
+                                    <div class="username">Victor Thomas</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-7.jpeg" alt="Homme 7">
+                                <div class="detail">
+                                    <div class="username">Nathan Bonnet</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/homme-8.jpeg" alt="Homme 8">
+                                <div class="detail">
+                                    <div class="username">Maxime Andre</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="slide">
+                            <div class="item">
+                                <img src="images/femme-6.jpeg" alt="Femme 6">
+                                <div class="detail">
+                                    <div class="username">Sacha Petit</div>
+                                    <div class="rating">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#7a5af5" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ece8f4" class="bi bi-star-fill" viewBox="0 0 16 16"><path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/></svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+
+            <div id="video"></div> <!-- Section vide permettant la redirection pour le footer -->
+            <div class="home-video">
+                <div class="title">
+                    <p class="sub-title">Vidéo</p>
+                    <h1>Bienvenue dans l'OASIS !</h1>
+                </div>
+                <iframe src="https://www.youtube.com/embed/5LQEjOzYM54?si=yeveAnr3vXNjdHPO" title="YouTube video player" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <div class="home-reserve">
+                <img src="images/image.jpg" alt="image">
+                <div class="title">
+                    <h1>Réservez dès maintenant !</h1>
+                    <a href="./activites.html" class="btn">
+                        Réserver
+                    </a>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="links">
+                <h2>Liens rapide</h2>
+                <ul>
+                    <li><a href="./home.html#virtualquest">VirtualQuest</a></li>
+                    <li><a href="./home.html#equipement">Equipement</a></li>
+                    <li><a href="./home.html#avis">Avis</a></li>
+                    <li><a href="./home.html#video">Vidéo</a></li>
+                    <li><a href="./activites.html">Formules</a></li>
+                    <li><a href="./contact.html">Réserver</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="membres">
+                <h2>Membres</h2>
+                <ul>
+                    <li>Tom Saraiva</li>
+                    <li>Jimmy Zheng</li>
+                </ul>
+            </div>
+            <div class="rapport">
+                <h2>Rapport</h2>
+                <a href="Rapport/Rapport-VirtualQuest.pdf" download>
+                    <!-- L'icon du PDF -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24" fill="currentColor"><path d="M64 464l48 0 0 48-48 0c-35.3 0-64-28.7-64-64L0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 304l-48 0 0-144-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16zM176 352l32 0c30.9 0 56 25.1 56 56s-25.1 56-56 56l-16 0 0 32c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-48 0-80c0-8.8 7.2-16 16-16zm32 80c13.3 0 24-10.7 24-24s-10.7-24-24-24l-16 0 0 48 16 0zm96-80l32 0c26.5 0 48 21.5 48 48l0 64c0 26.5-21.5 48-48 48l-32 0c-8.8 0-16-7.2-16-16l0-128c0-8.8 7.2-16 16-16zm32 128c8.8 0 16-7.2 16-16l0-64c0-8.8-7.2-16-16-16l-16 0 0 96 16 0zm80-112c0-8.8 7.2-16 16-16l48 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 32 32 0c8.8 0 16 7.2 16 16s-7.2 16-16 16l-32 0 0 48c0 8.8-7.2 16-16 16s-16-7.2-16-16l0-64 0-64z" /></svg>
+                </a>
+                <a href="Rapport/Rapport-VirtualQuest.docx" download>
+                    <!-- L'icon du Document -->
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="24" height="24" fill="currentColor"><path d="M320 464c8.8 0 16-7.2 16-16l0-288-80 0c-17.7 0-32-14.3-32-32l0-80L64 48c-8.8 0-16 7.2-16 16l0 384c0 8.8 7.2 16 16 16l256 0zM0 64C0 28.7 28.7 0 64 0L229.5 0c17 0 33.3 6.7 45.3 18.7l90.5 90.5c12 12 18.7 28.3 18.7 45.3L384 448c0 35.3-28.7 64-64 64L64 512c-35.3 0-64-28.7-64-64L0 64z" /></svg>
+                </a>
+            </div>
+            <div class="newsletter">
+                <h2>Newsletter</h2>
+                <p>Abonnez-vous à notre Newsletter pour recevoir chaque semaine des nouvelles et des offres exclusives.</p>
+                <form action="#">
+                    <input type="text" placeholder="Votre mail" required>
+                    <button type="submit">S'abonner</button>
+                </form>
+            </div>
+            <a href="https://www.iut-orsay.fr" class="logo-iut">
+                <img src="images/logo-IUT.png" alt="Logo IUT">
+            </a>
+        </footer>
+
+        <script src="glow.js"></script>
+    </body>
+
+    
+</html>

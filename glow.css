@@ -1,0 +1,22 @@
+.glow {
+    position: relative;
+    border-radius: 10px;
+    background-color: var(--color-bg);
+    background-image: radial-gradient( var(--radius-spotlight) var(--radius-spotlight) at var(--x) var(--y), rgba(122, 90, 245, 0.2), transparent );
+    background-attachment: fixed;
+    border: var(--border) solid var(--color-border);
+}
+
+.glow::before {
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    inset: calc(var(--border) * -1);
+    mask: linear-gradient(transparent, transparent), linear-gradient(white, white);
+    mask-clip: padding-box, border-box;
+    mask-composite: intersect;
+    background-attachment: fixed;
+    background-image: radial-gradient( var(--radius-glow) var(--radius-glow) at var(--x, 0px) var(--y, 0px), #a28bf8, transparent );
+    border: var(--border) solid transparent;
+    border-radius: inherit;
+}

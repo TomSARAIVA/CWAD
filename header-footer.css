@@ -1,0 +1,207 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background: linear-gradient(var(--color-bg) 80%, transparent);
+}
+
+.logo img {
+    display: inline-block;
+    width: auto;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 200;
+}
+
+.nav li a {
+    color: var(--color-wh-2);
+    text-decoration: none;
+    position: relative;
+}
+
+.nav li a::before {
+    content: '';
+    position: absolute;
+    top: calc(100% + 1px);
+    left: 0;
+    width: 0;
+    height: var(--border);
+    background: var(--color-wh-2);
+    transition: .2s;
+}
+
+.nav li a:hover::before {
+    width: 100%;
+}
+
+header .btn {
+    text-decoration: none;
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: var(--border) solid var(--color-pr-1);
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    background: transparent;
+    color: var(--color-wh-1);
+    box-shadow: 0 0 0 0 transparent;
+    transition: all .2s;
+}
+
+header .btn:hover {
+    box-shadow: 0 0 30px 5px var(--color-shadow-1);
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    padding: 40px 60px;
+}
+
+footer .links h2 {
+    font-family: "Poppins", sans-serif;    
+    font-size: 18px;
+    color: transparent;
+    background: linear-gradient(to right, var(--color-pr-1), var(--color-pr-2));
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+footer .links ul {
+    list-style: none;
+}
+
+footer .links ul li a {
+    font-family: "Mulish", sans-serif;
+    text-decoration: none;
+    color: var(--color-wh-2);
+    font-size: 14px;
+    transition: color .2s;
+}
+
+footer .links ul li a:hover {
+    color: var(--color-wh-1);
+}
+
+footer .membres h2 {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: transparent;
+    background: linear-gradient(to right, var(--color-pr-1), var(--color-pr-2));
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+footer .membres ul {
+    list-style: none;
+}
+
+footer .membres ul li {
+    font-family: "Mulish", sans-serif;
+    color: var(--color-wh-2);
+    font-size: 14px;
+}
+
+footer .rapport h2 {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: transparent;
+    background: linear-gradient(to right, var(--color-pr-1), var(--color-pr-2));
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+footer .rapport a {
+    display: inline-block;
+    margin: 5px;
+}
+
+footer .rapport svg {
+    fill: var(--color-wh-2);
+    transition: fill .2s;
+}
+
+footer .rapport a:hover svg {
+    fill: var(--color-wh-1);
+}
+
+footer .newsletter {
+    text-align: center;
+}
+
+footer .newsletter h2 {
+    font-family: "Poppins", sans-serif;    
+    font-size: 18px;
+    color: transparent;
+    background: linear-gradient(to right, var(--color-pr-1), var(--color-pr-2));
+    background-clip: text;
+    margin-bottom: 10px;
+}
+
+footer .newsletter p {
+    font-size: 14px;
+    color: var(--color-wh-2);
+    margin-bottom: 15px;
+}
+
+footer .newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer .newsletter input[type="text"] {
+    padding: 10px;
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+    font-size: 14px;
+    background: var(--color-bg);
+    color: var(--color-wh-1);
+    width: 300px;
+}
+
+footer .newsletter input[type="text"]::placeholder {
+    color: var(--color-wh-2);
+}
+
+footer .newsletter button {
+    padding: 10px 20px;
+    background: var(--color-pr-1);
+    color: var(--color-wh-1);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+footer .newsletter button:hover {
+    background: var(--color-pr-2);
+}
+
+footer .logo-iut {
+    grid-column: span 4;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: var(--border) solid var(--color-border);
+}
+
+footer .logo-iut img {
+    max-width: 100px;
+    height: auto;
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+:root { /* Définition des variables CSS globales */
+    --color-bg: #1a1625; /* Couleur du fond */
+    --color-border: #2e2641; /* Variante du fond */
+    --color-pr-1: #7a5af5; /* Première teinte de violet */
+    --color-pr-2: #a28bf8; /* Seconde teinte de violet */
+    --color-wh-1: #faf9fc; /* Première teinte de blanc */
+    --color-wh-2: #9594b8; /* Seconde teinte de blanc */
+    --color-shadow-1: rgba(122,90,245, .2); /* Première teinte d'ombrage */
+    --color-shadow-2: rgba(250,249,252, .2); /* Seconde teinte d'ombrage */
+    --backdrop: hsl(0 0% 60% / 0.12);
+    --radius-spotlight: 240px; /* Rayon de l'effet de glow */
+    --radius-glow: 200px; /* Rayon de l'effet de glow sur les bordures */
+    --border: 1px; /* Epaisseur des bordures */
+    --color-br-1: rgba(103, 50, 8, 0.8); /* Première teinte pour le dégradé bronze */
+    --color-br-2: rgba(219, 108, 43, 0.8); /* Seconde teinte pour le dégradé bronze */
+    --color-sl-1: rgba(237, 237, 237, 0.8); /* Première teinte pour le dégradé argent */
+    --color-sl-2: rgba(189, 189, 189, 0.8); /* Seconde teinte pour le dégradé argent */
+    --color-gl-1: rgba(235, 167, 60, 0.8); /* Première teinte pour le dégradé or */
+    --color-gl-2: rgba(214, 145, 33, 0.8); /* Seconde teinte pour le dégradé or */
+    --color-gl-3: rgba(191, 118, 0, 0.8); /* Troisième teinte pour le dégradé or */
+}
+
+* { /* Réinitialisation des marges et du padding */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Assure que les dimensions incluent les bordures et les paddings */
+}
+
+*::selection {
+    color: var(--color-wh-1);
+    background-color: var(--color-pr-1);
+}
+
+body {
+    background: var(--color-bg); /* Définit la couleur du fond */
+    font-family: "Mulish", sans-serif; /* Définit "Mulish" comme police par défaut */
+}
+
+/*
+
+Logo : https://designbundles.net/xcoolee/2388628-vq-logo-design
+Tuto 3D logo : https://www.youtube.com/watch?v=hjcmafZQqHg
+Tuto API Google : https://www.youtube.com/watch?v=ArKrqdQ-oSs&t=324s
+Inspiration cartes 3D : https://codepen.io/robin-dela/pen/jVddbq 
+Inspiration cartes formules : https://www.eva.gg/fr-FR/battlepass
+Générateur de grille : https://cssgrid-generator.netlify.app/
+Effet de brillance : https://codepen.io/Harlem-McConnell/pen/JjzJvGo
+Combinaisons et gants haptiques : https://teslasuit.io/
+Casques VR et tapis omnidirectionnels : https://virtuix.com/omni-one/
+Générateur de personnes imaginaires : https://this-person-does-not-exist.com/fr 
+Inspiration titres dégradés : https://codepen.io/leocampos/pen/pPwwNR 
+Inspiration slider d'avis : https://www.youtube.com/watch?app=desktop&v=G8TkkpC3XbI
+Inspiration bento grid : https://bentogrids.com/
+Inspiration DA du site : https://cruip.com/
+*/

@@ -1,0 +1,127 @@
+@media (max-width: 480px) { /* Changement de taille du header */
+    header {
+        padding: 10px 2%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    .nav {
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav li a {
+        font-size: 12px;
+    }
+
+    header .btn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
+
+@media (max-width: 768px) { /* Changement de taille et repositionnement du titre de la page d'accueil */
+    .home-container {
+        flex-direction: column;
+    }
+
+    .home-logo {
+        max-width: 70%;
+    }
+
+    .home-title {
+        font-size: 18px;
+    }
+
+    .home-slogan {
+        font-size: 9px;
+    }
+} 
+
+@media (max-width: 624px) { /* Changement de taille du texte de la page d'accueil */
+    .title.desc {
+        padding: 5px;
+        margin: 0px 20px 0px 20px;
+    }
+    .title.desc p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 624px) { /* Changement de taille des titres */
+    .title .sub-title {
+        font-size: 12px;
+    }
+    .title h1 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 624px) { /* Suppression des dégradés à gauche et à droite du slider */
+    .slider::before {
+        background: linear-gradient(to right, transparent, transparent);
+    }
+    
+    .slider::after {
+        background: linear-gradient(to left, transparent, transparent);
+    }
+}
+
+@media (max-width: 768px) { /* Changement de taille de la vidéo */
+    .home-video iframe {
+        width: 480px;
+        height: 270px;
+    }
+}
+
+@media (max-width: 768px) { /* Changement de position du footer */
+    footer {
+        grid-template-columns: 1fr; 
+        gap: 15px;
+        padding: 20px;
+    }
+
+    footer .links,
+    footer .membres,
+    footer .rapport,
+    footer .newsletter {
+        align-items: center;
+        text-align: center;
+    }
+
+    footer .newsletter form {
+        width: 100%;
+    }
+
+    footer .newsletter button {
+        width: 100%;
+    }
+
+    footer .logo-iut {
+        grid-column: span 1;
+    }
+}
+
+@media (max-width: 1116px) { /* Changement de position des cartes des formules */
+    .pricing {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 624px) { /* Changement des marges du titre des formules */
+    .title.desc {
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 850px) { /* Changement de position du contact */
+    .grid {
+        flex-direction: column; 
+    }
+}

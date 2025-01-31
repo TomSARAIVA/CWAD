@@ -1,0 +1,23 @@
+.desc {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    color: var(--color-wh-2);
+}
+
+.bg-bronze {
+    background: linear-gradient(45deg, var(--color-br-1), var(--color-br-2)), url('images/bg-card.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-silver {
+    background: linear-gradient(45deg, rgba(237, 237, 237, 0.8), rgba(189, 189, 189, 0.8)), url('images/bg-card.avif');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-gold {
+    background: linear-gradient(45deg, var(--color-gl-1), var(--color-gl-2), var(--color-gl-3)), url('images/bg-card.avif');
+    background-size: cover;
+    background-position: center;
+}

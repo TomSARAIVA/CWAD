@@ -1,0 +1,59 @@
+.contact-grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-grid .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.contact-grid .contact .info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-grid .contact .info h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    color: transparent;
+    background: linear-gradient(to right, var(--color-pr-1), var(--color-pr-2));
+    background-clip: text;
+    padding-bottom: 10px;
+}
+
+.contact-grid .contact .info p {
+    font-size: 16px;
+    color: var(--color-wh-2);
+    white-space: nowrap;
+}
+
+.contact-grid .contact .info a {
+    color: var(--color-wh-2);
+    text-decoration: none;
+}
+
+.contact-grid .contact .info a:hover {
+    color: var(--color-pr-2);
+}
+
+.contact-grid .contact .map { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 40px;
+}
+
+.contact-grid .contact .map iframe {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    border: var(--border) solid var(--color-border);
+}
